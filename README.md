@@ -44,6 +44,9 @@ For now a single Node.js actor runtime is implemented.
 
 Knative Serving offers no durability guarantees.
 
+The current implementation permits multiple method invocations of the same actor
+instance to run concurrently.
+
 ## Documentation
 
 - [Tutorial](docs/tutorial.md)
